@@ -660,6 +660,11 @@ video {
   color: hsl(193 38% 86% / var(--tw-text-opacity));
 }
 
+.hover\:bg-primaryColor:hover {
+  --tw-bg-opacity: 1;
+  background-color: hsl(193 38% 86% / var(--tw-bg-opacity));
+}
+
 @media (min-width: 375px) {
   .mobile\:flex {
     display: flex;
